@@ -28,8 +28,7 @@
 
 **완료 조건:** 각 파일 import 시 TypeScript 타입 에러 없음 (`npm run typecheck` 통과)
 
-- Commits:
-  - `data: cases, curriculum, faq content`
+- Commits: `d07cfc1`, `3eeb9c0`
 
 ---
 
