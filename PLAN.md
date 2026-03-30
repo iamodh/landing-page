@@ -168,15 +168,14 @@
 
 **Checklist**
 
-- [ ] `npm run build` 로컬 성공
-- [ ] Vercel 빌드 로그 에러 없음
-- [ ] 배포 URL에서 모든 섹션 로딩 확인
-- [ ] HTTPS 접근 가능
+- [x] `npm run build` 로컬 성공
+- [x] Vercel 빌드 로그 에러 없음
+- [x] 배포 URL에서 모든 섹션 로딩 확인
+- [x] HTTPS 접근 가능
 
 **완료 조건:** Vercel 배포 URL 공유 가능한 상태
 
-- Commits:
-  - `chore: vercel project config`
+- Commits: Vercel 대시보드에서 연결 완료
 
 ---
 
