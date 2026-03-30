@@ -149,15 +149,14 @@
 
 **Checklist**
 
-- [ ] 신청 버튼 클릭 시 새 탭으로 외부 URL 이동 **(P0)**
-- [ ] `rel="noopener noreferrer"` 속성 포함
-- [ ] 마감일 텍스트 노출 (TODO 상태면 플레이스홀더)
-- [ ] 문의처 텍스트 노출 (TODO 상태면 플레이스홀더)
+- [x] 신청 버튼 클릭 시 새 탭으로 외부 URL 이동 **(P0)**
+- [x] `rel="noopener noreferrer"` 속성 포함
+- [x] 마감일 텍스트 노출 (TODO 상태면 플레이스홀더)
+- [x] 문의처 텍스트 노출 (TODO 상태면 플레이스홀더)
 
 **완료 조건:** 신청 버튼 → 새 탭 이동 동작 확인
 
-- Commits:
-  - `feat: CtaSection`
+- Commits: `3ddb405`
 
 ---
 
