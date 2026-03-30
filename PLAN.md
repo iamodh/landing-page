@@ -10,15 +10,13 @@
 
 **Checklist**
 
-- [ ] `npm run dev` 실행 시 브라우저에서 localhost 접근 가능
-- [ ] Tailwind `brand-orange`, `brand-navy` 클래스가 화면에 정상 적용됨
-- [ ] TypeScript 컴파일 에러 없음 (`npm run build` 성공)
+- [x] `npm run dev` 실행 시 브라우저에서 localhost 접근 가능
+- [x] Tailwind `brand-orange`, `brand-navy` 클래스가 화면에 정상 적용됨
+- [x] TypeScript 컴파일 에러 없음 (`npm run build` 성공)
 
 **완료 조건:** `npm run build` 성공 + 브라우저에서 브랜드 컬러 확인
 
-- Commits:
-  - `init: vite + react + typescript scaffold`
-  - `style: tailwind config with brand color tokens`
+- Commits: `d3eacee`, `4e24ab3`, `96dff62`
 
 ---
 
