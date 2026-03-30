@@ -40,14 +40,13 @@
 
 **Checklist**
 
-- [ ] `Button` — `href` prop 있을 때 `<a target="_blank" rel="noopener noreferrer">` 렌더링
-- [ ] `Accordion` — 항목 클릭 시 열림/닫힘 토글 동작
-- [ ] `Accordion` — 하나 열면 나머지 닫힘 (단일 선택)
+- [x] `Button` — `href` prop 있을 때 `<a target="_blank" rel="noopener noreferrer">` 렌더링
+- [x] `Accordion` — 항목 클릭 시 열림/닫힘 토글 동작
+- [x] `Accordion` — 하나 열면 나머지 닫힘 (단일 선택)
 
 **완료 조건:** 브라우저에서 각 컴포넌트 수동 동작 확인
 
-- Commits:
-  - `feat: Button, Card, Accordion components`
+- Commits: `7ab07ab`
 
 ---
 
