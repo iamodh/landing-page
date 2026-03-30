@@ -78,10 +78,10 @@
 
 | 구분 | 선택 | 비고 |
 |------|------|------|
-| 번들러 | Vite 5 | — |
-| UI 프레임워크 | React 18 | — |
-| 언어 | TypeScript | — |
-| 스타일링 | Tailwind CSS v3 | 브랜드 컬러 커스텀 토큰 |
+| 번들러 | Vite 8 | — |
+| UI 프레임워크 | React 19 | — |
+| 언어 | TypeScript 5.9 | — |
+| 스타일링 | Tailwind CSS v4 | `@tailwindcss/vite` 플러그인, CSS `@theme` 블록으로 토큰 정의 |
 | 패키지 매니저 | npm | — |
 | 배포 | Vercel | Git push → 자동 배포 |
 | 코드 포매터 | Prettier | — |
@@ -208,22 +208,20 @@ const toggle = (index: number) => {
 
 ### 7.4 브랜드 컬러 Tailwind 토큰
 
-```js
-// tailwind.config.js
-theme: {
-  extend: {
-    colors: {
-      brand: {
-        orange: '#E07830',
-        gold:   '#DDB84E',
-        navy:   '#2D4356',
-        bg:     '#F2F7F7',
-        text:   '#2A2A2A',
-      },
-    },
-  },
-},
+```css
+/* src/index.css — Tailwind v4 @theme 방식 */
+@import "tailwindcss";
+
+@theme {
+  --color-brand-orange: #E07830;
+  --color-brand-gold: #DDB84E;
+  --color-brand-navy: #2D4356;
+  --color-brand-bg: #F2F7F7;
+  --color-brand-text: #2A2A2A;
+}
 ```
+
+사용 예: `bg-brand-orange`, `text-brand-navy`
 
 ---
 
