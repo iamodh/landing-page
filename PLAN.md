@@ -8,7 +8,7 @@
 
 > 📖 TECHSPEC 섹션 4.1, 7.4 참조
 
-**Smoke Tests**
+**Checklist**
 
 - [ ] `npm run dev` 실행 시 브라우저에서 localhost 접근 가능
 - [ ] Tailwind `brand-orange`, `brand-navy` 클래스가 화면에 정상 적용됨
@@ -28,13 +28,7 @@
 
 > 📖 TECHSPEC 섹션 6 참조
 
-**Unit Tests**
-
-- [ ] `cases.ts` — 사례 3건 모두 `id`, `title`, `bullets`, `source` 필드 존재
-- [ ] `curriculum.ts` — 4단계 항목, `step` 1~4 순서 확인
-- [ ] `faq.ts` — 6개 질문/답변 쌍 존재
-
-**완료 조건:** 각 파일 import 시 TypeScript 타입 에러 없음
+**완료 조건:** 각 파일 import 시 TypeScript 타입 에러 없음 (`npm run typecheck` 통과)
 
 - Commits:
   - `data: cases, curriculum, faq content`
@@ -47,12 +41,11 @@
 
 > 📖 TECHSPEC 섹션 4.2, 7.1 참조
 
-**Component Tests**
+**Checklist**
 
 - [ ] `Button` — `href` prop 있을 때 `<a target="_blank" rel="noopener noreferrer">` 렌더링
 - [ ] `Accordion` — 항목 클릭 시 열림/닫힘 토글 동작
 - [ ] `Accordion` — 하나 열면 나머지 닫힘 (단일 선택)
-- [ ] `Card` — children 렌더링 정상
 
 **완료 조건:** 브라우저에서 각 컴포넌트 수동 동작 확인
 
@@ -67,7 +60,7 @@
 
 > 📖 TECHSPEC 섹션 1.1, 5 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 375px에서 카피 텍스트 잘림 없음
 - [ ] CTA 버튼 클릭 시 `#apply` 앵커로 부드러운 스크롤 이동
@@ -86,7 +79,7 @@
 
 > 📖 TECHSPEC 섹션 7.2 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 플레이스홀더 3개가 16:9 비율로 렌더링
 - [ ] 이미지 없이도 레이아웃 무너지지 않음 **(P0)**
@@ -105,7 +98,7 @@
 
 > 📖 TECHSPEC 섹션 1.1, 데이터 `curriculum.ts` 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 4단계 모두 렌더링 (1단계~4단계)
 - [ ] 각 단계에 기간, 제목, 설명 표시
@@ -124,7 +117,7 @@
 
 > 📖 TECHSPEC 섹션 1.1, 데이터 `cases.ts` 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 사례 3건 모두 렌더링
 - [ ] 각 카드에 제목, 불릿 목록, 출처 표시
@@ -143,7 +136,7 @@
 
 > 📖 TECHSPEC 섹션 1.1, 7.1, 데이터 `faq.ts` 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 6개 항목 렌더링
 - [ ] 항목 클릭 시 답변 열림/닫힘 **(P0)**
@@ -163,7 +156,7 @@
 
 > 📖 TECHSPEC 섹션 1.1, 1.3, 7.3 참조
 
-**Functional Tests**
+**Checklist**
 
 - [ ] 신청 버튼 클릭 시 새 탭으로 외부 URL 이동 **(P0)**
 - [ ] `rel="noopener noreferrer"` 속성 포함
@@ -183,7 +176,7 @@
 
 > 📖 TECHSPEC 섹션 4.3 참조
 
-**Deploy Tests**
+**Checklist**
 
 - [ ] `npm run build` 로컬 성공
 - [ ] Vercel 빌드 로그 에러 없음
@@ -203,7 +196,7 @@
 
 > 📖 TECHSPEC 섹션 8 참조
 
-**QA Tests**
+**Checklist**
 
 - [ ] 375px — 전체 섹션 레이아웃 깨짐 없음 **(P0)**
 - [ ] 768px — 레이아웃 확인
