@@ -1,7 +1,6 @@
 import HeroSection from "./components/sections/HeroSection"
-import ShowcaseSection from "./components/sections/ShowcaseSection"
-import CurriculumSection from "./components/sections/CurriculumSection"
 import CasesSection from "./components/sections/CasesSection"
+import CurriculumSection from "./components/sections/CurriculumSection"
 import FaqSection from "./components/sections/FaqSection"
 import CtaSection from "./components/sections/CtaSection"
 
@@ -10,9 +9,8 @@ function App() {
     <div className="min-h-screen bg-brand-bg text-brand-text">
       <HeroSection />
       <main>
-        <ShowcaseSection />
-        <CurriculumSection />
         <CasesSection />
+        <CurriculumSection />
         <FaqSection />
         <CtaSection />
       </main>
