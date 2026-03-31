@@ -1,8 +1,4 @@
 export default function HeroSection() {
-  const scrollToApply = () => {
-    document.getElementById("apply")?.scrollIntoView({ behavior: "smooth" })
-  }
-
   return (
     <section id="hero" className="bg-brand-navy text-white px-6 py-16">
       <div className="max-w-md mx-auto text-center">
@@ -22,12 +18,6 @@ export default function HeroSection() {
         <p className="text-brand-gold/80 text-sm mt-6">
           2026년 4월 ~ 12월 · AI-아이
         </p>
-        <button
-          onClick={scrollToApply}
-          className="mt-8 inline-block bg-brand-orange text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-brand-orange/90 transition-colors"
-        >
-          지금 신청하기
-        </button>
       </div>
     </section>
   )
