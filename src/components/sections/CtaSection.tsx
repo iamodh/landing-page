@@ -6,11 +6,11 @@ export default function CtaSection() {
   return (
     <section id="apply" className="px-6 py-16 bg-brand-navy text-white">
       <div className="max-w-md mx-auto text-center">
-        <h2 className="text-2xl font-bold">함께 만들어 볼까요?</h2>
+        <h2 className="text-2xl font-bold">같이 탐색하고, 나눠볼까요?</h2>
         <p className="text-gray-300 mt-3 leading-relaxed">
-          코딩 경험이 없어도 괜찮습니다.
+          자유롭게 AI를 활용해 보고,
           <br />
-          AI와 함께라면 누구나 만들 수 있어요.
+          서로의 경험을 나누는 스터디입니다.
         </p>
         <div className="mt-8">
           <Button href={APPLY_URL}>지금 신청하기</Button>

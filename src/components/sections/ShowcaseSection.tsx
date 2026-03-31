@@ -1,7 +1,7 @@
 const showcases = [
-  { title: "동네 맛집 추천 웹앱", description: "AI에게 말로 설명해서 만든 첫 번째 결과물" },
-  { title: "우리 동아리 소개 페이지", description: "디자인 감각 없이도 완성한 웹페이지" },
-  { title: "김해 관광 가이드", description: "지역 정보를 담은 인터랙티브 페이지" },
+  { title: "동네 맛집 추천 웹앱", description: "관심 있는 주제로 직접 만들어 본 결과물" },
+  { title: "우리 동아리 소개 페이지", description: "각자의 방식으로 완성한 웹페이지" },
+  { title: "김해 관광 가이드", description: "지역 이야기를 담아 자유롭게 만든 페이지" },
 ]
 
 export default function ShowcaseSection() {
@@ -9,10 +9,10 @@ export default function ShowcaseSection() {
     <section id="showcase" className="px-6 py-16">
       <div className="max-w-md mx-auto">
         <h2 className="text-2xl font-bold text-center">
-          이런 걸 만들 수 있어요
+          스터디원들이 만든 것들
         </h2>
         <p className="text-gray-500 text-center mt-2 text-sm">
-          바이브 코딩으로 만든 결과물 예시
+          각자의 관심사로 자유롭게 만든 결과물
         </p>
         <div className="mt-8 space-y-6">
           {showcases.map((item, index) => (

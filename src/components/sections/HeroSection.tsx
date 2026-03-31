@@ -10,14 +10,14 @@ export default function HeroSection() {
           김해 청년 AI 동아리
         </p>
         <h1 className="text-3xl font-bold mt-3 leading-tight">
-          코딩 몰라도 괜찮아,
+          AI로 나만의 방법을 찾고,
           <br />
-          AI가 대신 만들어 줄게
+          만들고, 함께 나누는 곳
         </h1>
         <p className="text-gray-300 mt-4 leading-relaxed">
-          말로 설명하면 결과물이 나오는 <strong className="text-white">바이브 코딩</strong>으로
+          각자의 속도로 <strong className="text-white">AI를 자유롭게 탐색</strong>하고
           <br />
-          나만의 웹페이지를 만들어 보세요.
+          결과물을 스터디원들과 공유하고 토론해요.
         </p>
         <p className="text-brand-gold/80 text-sm mt-6">
           2026년 4월 ~ 12월 · AI-아이

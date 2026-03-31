@@ -5,7 +5,7 @@ export default function CurriculumSection() {
     <section id="curriculum" className="px-6 py-16 bg-white">
       <div className="max-w-md mx-auto">
         <h2 className="text-2xl font-bold text-center">
-          9개월, 이렇게 배워요
+          9개월, 이렇게 함께해요
         </h2>
         <div className="mt-10 relative">
           {/* 타임라인 세로선 */}
