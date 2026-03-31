@@ -5,7 +5,7 @@ export default function ValuesSection() {
     <section className="px-6 py-14 bg-white">
       <div className="max-w-md mx-auto">
         <h2 className="text-2xl font-bold text-center text-brand-navy">
-          우리의 약속
+          이런 점이 좋아요
         </h2>
         <ul className="mt-8 space-y-5">
           {values.map((v) => (
