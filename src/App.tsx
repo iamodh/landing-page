@@ -10,9 +10,9 @@ function App() {
     <div className="min-h-screen bg-brand-bg text-brand-text">
       <HeroSection />
       <main>
-        <ValuesSection />
-        <CasesSection />
         <CurriculumSection />
+        <CasesSection />
+        <ValuesSection />
         <FaqSection />
         <CtaSection />
       </main>
